@@ -1,6 +1,6 @@
 Simple python wrapper around Open Weather PWS API
 
-##Requirements
+## Requirements
 
 You need API key to use it. 
 You can get it for free: https://home.openweathermap.org/api_keys
@@ -96,7 +96,7 @@ Send bulk data of PWS you'll need to prepare list with dicts and send it via:
 
     pws.meas.set_bulk(payload)
     
- ##Terms of service
+ ## Terms of service
 
 Refer to 
 https://openweathermap.org/
