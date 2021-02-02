@@ -24,7 +24,7 @@ class Station:
         }
         response = requests.post(f'{self.endpoint}?appid={self.api_key}', json=payload)
         if response.status_code != 201:
-            sys.stderr.write("Can't create station!")
+            stderr.write("Can't create station!")
         else:
             if not self.station_id:
                 self.station_id = response.json()['id']
