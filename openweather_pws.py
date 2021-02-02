@@ -1,7 +1,8 @@
-import requests
-import json
 from time import time
 from sys import stderr
+import json
+
+import requests
 
 
 BASE_API_URL = 'http://api.openweathermap.org/data/3.0'
