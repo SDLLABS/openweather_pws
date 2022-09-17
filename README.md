@@ -1,5 +1,7 @@
 **Simple python wrapper around Open Weather PWS API**
 
+pypi package can be found [here](https://pypi.org/project/openweather-pws/).
+
 ## Requirements
 
 You need API key to use it. 
